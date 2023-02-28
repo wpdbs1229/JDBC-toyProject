@@ -19,10 +19,10 @@ JDBC을 이용해 DB에 저장하고, 가장 가까이에 있는 WIFI 목록 조
 - History : 와이파이를 조회했을 때의 나의 위치, 시간을 저장하는 history 테이블을 다루기 위한 객체 클래스
 - HistoryService : history의 CRUD 기능 담당
 
--home.jsp : 현재위치를 받아 home2.jsp로 위도와 경도를 넘겨줌
--home2.jsp : 받은 위도와 경도로 각 wifi와 현재위치에 거리를 계산, 가장가까운 wifi부터 20개까지 출력시켜줌
--wifiInfo.jsp : open API로부터 데이터를 받아서, 이를 wifi table에 저장
--history.jsp : 와이파이를 조회한 기록을 보고, 삭제 가능
--historydelete.jsp : history.jsp에서 삭제를 요청하면, 해당 페이지에서 삭제가 이루어짐
+- home.jsp : 현재위치를 받아 home2.jsp로 위도와 경도를 넘겨줌
+- home2.jsp : 받은 위도와 경도로 각 wifi와 현재위치에 거리를 계산, 가장가까운 wifi부터 20개까지 출력시켜줌
+- wifiInfo.jsp : open API로부터 데이터를 받아서, 이를 wifi table에 저장
+- history.jsp : 와이파이를 조회한 기록을 보고, 삭제 가능
+- historydelete.jsp : history.jsp에서 삭제를 요청하면, 해당 페이지에서 삭제가 이루어짐
 
 -> home.jsp에서 run server를 해야합니다.
